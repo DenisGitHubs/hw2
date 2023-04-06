@@ -1,11 +1,11 @@
-let a = Number(10);
+let a = 10;
 alert(a);
-a = Number(20);
+a = 20;
 alert(a);
 
-let yearIssue = Number(alert(2007));
+let yearIssue = alert(2007);
 
-let nameCreator  = String(alert(`Brendan Eich`));
+let nameCreator  = alert("Brendan Eich");
 
 let firstNumber = Number(10);
 let secondNumber = Number(2);
@@ -17,8 +17,8 @@ alert(sym);
 alert(difference);
 alert(productNumbers);
 alert(divisionNumbers);
-a = Number(9);
-let b = Number(2);
+a = 9;
+let b = 2;
 alert(a % b);
 let num = 1;
 num += 5;
@@ -29,16 +29,16 @@ num /= 3;
 --num;
 alert(num);
 
-let age = Number(prompt(`Сколько вам лет`));
+let age = prompt(`Сколько вам лет?`);
 alert(age);
 
 let user = {
-    name: String(`Nguen`),
-    age: Number(200),
-    isAdmin: Boolean(false)
+    name: "Nguen",
+    age: 200,
+    isAdmin: false
 };
 
-user['city of residence'] = String(`Nga Tranh`);
+user['city of residence'] = "Nga Tranh";
 user[`age`] = 100;
 delete user['city of residence'];
 
@@ -46,5 +46,5 @@ let info = prompt(`Какую информацию хотите узнать о 
 
 alert(`${user[info]}`);
 
-let userName = prompt(`Как ваше имя?`);
-alert(`Привет,` + userName + `!`)
+let userName = prompt("Как ваше имя?");
+alert(`Привет, ` + userName + `!`)
